@@ -1,6 +1,10 @@
 <?php
 //memanggil file bagian atas
 include_once 'top.php';
+include_once 'koneksi.php';
+include_once 'models/Produk.php';
+include_once 'models/Jenis_Produk.php';
+
 //memanggil dan memproses file bagian menu
 include_once 'menu.php';
 ?>
